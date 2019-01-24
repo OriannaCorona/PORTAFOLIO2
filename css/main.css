@@ -1,0 +1,310 @@
+/*header*/
+.navbar-nav {
+	background-color: rgba(255, 219, 221, 0.9);
+	width: 32.9%;
+	float: right;
+}
+.menu {	
+	margin: 0%;
+}
+.linea-menu {
+	margin.left: 10%;
+}
+.menu-mobile, .menu-mobile-lg {
+	border: #FF4F58 solid 0.5px !important;
+}
+.menu-mobile-xs {
+	border: #FF4F58 solid 1px !important;	
+}
+* {
+	font-family: 'Questrial', sans-serif;
+	outline: 0 !important;
+}
+#punto, #nombre {
+	margin-top: 17%;
+} 
+#punto, .puntoSkills {
+	font-family: 'Source Code Pro', monospace; 
+}
+.rojo {
+	color: #FF4F58;
+}
+#nombre {
+	font-size: 12em;
+}
+#cv, .estudios {
+	font-size: 1.5em;
+}
+#cv {
+	margin-bottom: 10%;
+}
+.estudios {
+	margin: 0% 0% 25% 39.5%;
+}
+.textDecorationNone, .menu {
+	text-decoration: none;
+}
+.negro {
+	color: black !important;	
+}
+.menu, .habilidades {
+	display: inline;
+	list-style-type: none;
+}
+.habilidades {
+	margin: 0% -1%;	
+}
+#herramientasDig {
+	margin-left: 8.5%;
+}
+#desarrolloWeb {
+	margin-left: 19.8%;
+}
+.emocionales {
+	display: block;
+	margin: 0% 0% 3% 25%;
+}
+/*sobre mí*/
+.subTit {
+	font-size: 6em;
+	font-weight: 700;
+}
+.text {
+	font-size: 1.2em;
+}
+.gris {
+	color: #ababab;
+}
+.fotos {
+	background-size: 100%;
+}
+.colorHover {
+	width: 80%;
+}
+.fotos, .fotoYo, .colorHover {
+	height: 280px;
+}
+.fotoYo {
+	margin-top: -16%;
+	float: right;
+	width: 50%;	
+}
+.bgGris {
+	background-color: #f4f4f4;
+	width: 100%;
+}
+.subTit2 {
+	margin-left: 7%;
+}
+.marginTop5 {
+	margin-top: 5%;
+}
+.skills {
+	margin-bottom: 3.5%;
+}
+.block {
+	display: block;
+}
+#metoImg {
+	width: 60%;
+	margin-bottom: 5%;
+}
+/*proyectos*/
+#proyectos {
+	margin-bottom: 26%;
+}
+#img1Proyectos {
+	background-image: url("../img_ref/MacBookPortafolio.jpg");
+}
+#img2Proyectos {
+	background-image: url("../img_ref/macbookflatness.jpg");
+}
+#img3Proyectos {
+	background-image: url("../img_ref/NewMacBookkane.jpg");
+}
+#img4Proyectos {
+	background-image: url("../img_ref/kerenta.png");
+}
+#img5Proyectos {
+	background-image: url("../img_ref/NewMacBookOgilvy.jpg");
+}
+#img6Proyectos {
+	background-image: url("../img_ref/zlup_logo.png");
+}
+.colorHover {
+	background-color: rgba(255,255,255,0.7);
+	overflow: hidden;
+	width: 113%;
+	margin-left: -6%;
+	opacity: 0;
+}
+div #img1Proyectos:hover div.colorHover,
+div #img2Proyectos:hover div.colorHover,
+div #img3Proyectos:hover div.colorHover,
+div #img4Proyectos:hover div.colorHover,
+div #img5Proyectos:hover div.colorHover,
+div #img6Proyectos:hover div.colorHover{
+	opacity: 1;
+}
+.segundosProy {
+	margin-top: 2%;	
+}
+/*video*/
+#video_zlup {
+	width: 100%; 
+	height: 360;	 
+}
+/*botones*/
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  vertical-align: middle;
+  z-index: 1;
+  will-change: opacity, transform;
+  transition: .3s ease-out;
+}
+.waves-effect .waves-ripple {
+  z-index: -1;
+}
+/**aqui se cambia el color de bg*/
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF4F58;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+/**aqui se cambia el color de bg en el hover*/
+.btn:hover, .btn-large:hover {
+  background-color: white;
+  color: #FF4F58;
+}
+/*pruebas movimiento
+.circulo {
+	width: 10%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-animation: spin 4s linear alternate infinite;
+	-moz-animation: spin 4s linear alternate infinite;	
+}
+@-moz-keyframes spin { 100% {-moz-transform:rotate(360deg);}}
+@-webkit-keyframes spin { 100% {-webkit-transform:rotate(360deg);}}
+@keyframes spin {100% {-webkit-transform:rotate(360deg);}}
+ finpruebas movimiento*/
+/*#fondoTotal .nieve { 
+position: absolute; 
+top: 0; left: 0; 
+width: 6vmin; 
+height: 6vmin;
+border-radius: 100%; 
+border: solid #ffdbdd 2px;
+}*/
+#fondoTotal {
+	background-image: url("../img_ref/bg-square.jpg");
+	background-repeat: ;
+	background-attachment: fixed;
+}
+
+
+/*contacto*/
+#contacto {
+	margin: -20% 0% 10% 0%;
+}
+.mgbot5 {
+	margin-bottom: 5%;
+}
+.mgbot10 {
+	margin-bottom: 10%;
+}
+.mgbot20 {
+	margin-bottom: 20%;
+}
+.mgLeft19 {
+	margin-left: 19%;
+}
+.mgLeft33 {
+	margin-left: 33%;
+}
+.mgTop10 {
+	margin-top: 13%;
+}
+/*responsive*/
+@media (max-width: 768px) {
+	#fondoTotal {
+		width: 100%;
+	}
+	.navbar-nav {
+		width: 80%;
+		float: right;
+		margin-right: 10%;
+	}
+	.menu {
+		text-align: right;
+	}
+	#nombre {
+		font-size: 6em;
+		margin: 90% 0% 0% 0%;
+	}
+	#herramientasDig, #desarrolloWeb, .ubicacionEmail {
+		margin: 0%;
+	}
+	.estudios {
+		font-size: 1em;
+		margin: 0% 0% 90% 0%;
+	}
+	.subTit {
+		font-size: 4em;
+	}
+	.estudios, .colorHover, #cv, #herramientasDig, #desarrolloWeb, .emocionales, #proyectos, #contacto, .ubicacionEmail, .redes {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.i-redes {
+		height: 65%;
+		width: 65%;
+	}
+	.emocionales {
+		margin-left: 0%
+	}
+	.fotos {
+	background-size: 100%;
+	height: 400px;
+	width: 80%;
+	background-repeat: no-repeat;
+	}
+	.colorHover {
+		width: 100%;
+		height: 57%;
+	}
+	.proyectoTit {
+		margin-top: -43%;
+		font-size: 130%;
+	}
+	.proyectoDes {
+		font-size: 120%;
+		margin-bottom: 15%;	
+	}
+	.redes {
+		margin-bottom: 2%;
+	}
+	#e-mail {
+		margin-top: 15%;
+	}
+	#gmail {
+		margin-bottom: 8%;
+	}
+	#derechos {
+		font-size: 70%;
+	}
+}
+
